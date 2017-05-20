@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
 
 # Media configurations
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/media/media_codecs_8929.xml:system/etc/media_codecs_8929.xml \
-	$(LOCAL_PATH)/media/media_codecs_8939.xml:system/etc/media_codecs_8939.xml \
+	$(LOCAL_PATH)/media/media_codecs_performance.xml:system/etc/media_codecs_performance.xml \
 	$(LOCAL_PATH)/media/media_codecs.xml:system/etc/media_codecs.xml \
 	$(LOCAL_PATH)/media/media_profiles.xml:system/etc/media_profiles.xml
